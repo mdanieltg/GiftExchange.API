@@ -37,7 +37,7 @@ namespace GiftExchange.DataAccess
 
         public bool Exists(int userId)
         {
-            return Context.Users.Find(userId) != null;
+            return Get(userId) != null;
         }
     }
 }
