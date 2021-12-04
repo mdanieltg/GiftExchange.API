@@ -39,5 +39,10 @@ namespace GiftExchange.DataAccess
         {
             return Get(userId) != null;
         }
+
+        public bool Exists(string email)
+        {
+            return Get(email) != null;
+        }
     }
 }

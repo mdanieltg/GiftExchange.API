@@ -11,6 +11,7 @@ namespace GiftExchange.DataAccess
         void Add(User user);
         void Remove(User user);
         bool Exists(int userId);
+        bool Exists(string email);
         void Save();
     }
 }

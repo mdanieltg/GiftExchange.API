@@ -5,7 +5,7 @@ namespace GiftExchange.DataAccess
 {
     public class GiftExchangeContext : DbContext
     {
-        private const string ConnectionString = "Server=server;Database=db;Uid=user;Pwd=pwd;SslMode=Preferred;";
+        private const string ConnectionString = "Server=localhost;Database=gifted;Uid=ef;Pwd=123456;SslMode=Preferred;";
 
         public GiftExchangeContext()
         {
